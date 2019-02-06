@@ -1,0 +1,16 @@
+Algorithm Analysis
+
+My selection sort's runtime was always around ~0.5sec. It has a Big O of n^2, because
+the algorithm would run through each element and sort it into the already sorted array
+to the left. After running through the array element, it would run the second part of 
+the array to find where an element belongs.
+
+My Bubble sort's runtime runs at about ~2.4sec. It has a Big O of n, because it will
+check one element, pushing to the top as needed, then moving to the next index of the
+array, pushing that element to the top as it is needed. It checks each index of the
+array only once.
+
+My insertion sort's runtime is near ~1.2sec. It has a Big O of N, because it will check
+the second element and check if the one to the left is smaller, swapping if needed.
+Then it checks the next element swapping to the left for smaller elements if needed,
+this will run through the array only once and ensures the smallest elements are kept left.

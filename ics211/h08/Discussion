@@ -1,0 +1,6 @@
+**Discussion**
+
+  I think that during examples 3 and 4, there is a lot more backtracking for the recursion.
+  It could be that there is a lot more backtracking happening towards the end where it continually reaches the 
+  near end and then it has to back track. Also during the first one, it has more options of being right, while
+  in the later examples there is less places for the Sudoku to be different leading to a smaller number of possible solutions.
