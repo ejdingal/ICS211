@@ -1,0 +1,9 @@
+Write-Up
+***********
+
+The big O of the binary search tree of all methods would be Log(n) because it works like
+a binary search where you are always halving the data. However at the worst case, if you
+add items in order to the binary search tree, It could run at big O of N because you would
+continually traverse in one direction to add an item, such as continually adding to the 
+right child when adding items in an ascending order. All methods require a binary search 
+thru the tree in order to find the right spot for something to be accessed, added, or deleted.
